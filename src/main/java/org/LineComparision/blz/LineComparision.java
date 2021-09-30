@@ -26,7 +26,7 @@ public class LineComparision {
 
         y2 = sc.nextInt();
         lengthOfALine = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
-        System.out.println("The Length OF the length Of The Line Is " + lengthOfALine);
+        System.out.println("The Length OF the line Is " + lengthOfALine);
 
 
     }
