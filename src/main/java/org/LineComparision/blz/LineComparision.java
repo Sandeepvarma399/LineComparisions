@@ -48,16 +48,11 @@ public class LineComparision {
         double lineTwo = Math.sqrt((x4 - x3) * (x4 - x3) + (y4 - y3) * (y4 - y3));
         System.out.println("The Length OF the  First Line Is " + lineOne);
         System.out.println("The Length OF the  Second Line Is " + lineTwo);
-        String myStr1 = "lineOne";
-        String myStr2 = "lineTwo";
-
-        boolean Answer = myStr1.equals(myStr2);
-
-        if (true) {
-            System.out.println("Both lines are  equal.");
-        }
-        else {
-            System.out.println("Both lines are not equal.");
+        boolean answer = Objects.equals(lineOne, lineTwo);
+        if (answer) {
+            System.out.println("Both lines are Equal");
+        } else {
+            System.out.println("Both lines are Not Equal");
         }
     }
 }
